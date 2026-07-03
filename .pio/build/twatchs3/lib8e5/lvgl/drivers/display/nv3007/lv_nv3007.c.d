@@ -1,0 +1,31 @@
+.pio/build/twatchs3/lib8e5/lvgl/drivers/display/nv3007/lv_nv3007.c.o: \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/lv_nv3007.c \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/lv_lcd_generic_mipi.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/lv_display.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_types.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\lv_conf_internal.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\lv_conf_kconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/qio_opi/include/sdkconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/lv_conf.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_timer.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\tick\lv_tick.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\lv_conf_internal.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_ll.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_event.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_array.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_color.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_assert.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_log.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\stdlib\lv_mem.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\lv_conf_internal.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\stdlib\lv_string.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_math.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_palette.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_color.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_color_op.h \
+ .pio/libdeps/twatchs3/lvgl/src/drivers/display/nv3007/../lcd/../../../display/../misc/lv_area.h

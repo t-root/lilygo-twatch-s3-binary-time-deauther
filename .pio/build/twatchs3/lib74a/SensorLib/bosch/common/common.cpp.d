@@ -1,0 +1,19 @@
+.pio/build/twatchs3/lib74a/SensorLib/bosch/common/common.cpp.o: \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/common/common.cpp \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/common/common.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhi3.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhi3_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhi3_multi_tap.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhi3.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhi3_multi_tap_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_klio.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_klio_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_swim.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_swim_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_bsec.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_head_tracker.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_head_tracker_defs.h \
+ .pio/libdeps/twatchs3/SensorLib/src/bosch/bhy2_parse.h

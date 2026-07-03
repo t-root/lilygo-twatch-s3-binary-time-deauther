@@ -1,0 +1,32 @@
+.pio/build/twatchs3/lib8e5/lvgl/others/font_manager/lv_font_manager.c.o: \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/lv_font_manager.c \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/lv_font_manager.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/lv_font.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../lv_conf_kconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/qio_opi/include/sdkconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/lv_conf.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../misc/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/lv_symbol_def.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/lv_draw_buf.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_area.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_math.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_color.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_assert.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_log.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/../stdlib/lv_mem.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/../stdlib/lv_string.h \
+ c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\lvgl\src\misc\lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_palette.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_color.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../misc/lv_color_op.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../stdlib/lv_string.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/lv_image_dsc.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../draw/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/font_manager/../../font/../misc/lv_area.h

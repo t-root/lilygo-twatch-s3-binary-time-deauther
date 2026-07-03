@@ -1,0 +1,10 @@
+pio run -e twatchs3 -t upload -t monitor --upload-port COM6
+
+.pio/libdeps/twatchs3/RadioLib/src/hal/Arduino/ArduinoHal.cpp
+#ifndef digitalPinToInterrupt
+#define digitalPinToInterrupt(pin) (pin)
+#endif
+
+nạp test firmware
+python -m esptool --chip esp32s3 --port COM6 --baud 460800 write-flash 0x0 .pio/build/twatchs3/bootloader.bin 0x8000 .pio/build/twatchs3/partitions.bin 0xe000 "C:\Users\T-Root\.platformio\packages\framework-arduinoespressif32\tools\partitions\boot_app0.bin" 0x10000 .pio/build/twatchs3/firmware.bin
+python -m esptool --chip esp32s3 --port COM6 --baud 460800 write-flash 0x0 merged.bin 

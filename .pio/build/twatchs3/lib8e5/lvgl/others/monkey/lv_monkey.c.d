@@ -1,0 +1,27 @@
+.pio/build/twatchs3/lib8e5/lvgl/others/monkey/lv_monkey.c.o: \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/lv_monkey.c \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/lv_monkey_private.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/lv_monkey.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../lv_conf_kconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/qio_opi/include/sdkconfig.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_attr.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/lv_conf.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/lv_indev.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/lv_group.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/../misc/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/../misc/lv_ll.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../core/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_area.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_math.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_timer.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/../tick/lv_tick.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/../tick/../lv_conf_internal.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/../tick/../misc/lv_types.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_ll.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_event.h \
+ .pio/libdeps/twatchs3/lvgl/src/others/monkey/../../indev/../misc/lv_array.h

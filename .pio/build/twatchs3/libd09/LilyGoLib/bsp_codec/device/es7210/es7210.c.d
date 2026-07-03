@@ -1,0 +1,33 @@
+.pio/build/twatchs3/libd09/LilyGoLib/bsp_codec/device/es7210/es7210.c.o: \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/es7210.c \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/log/include/esp_log.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_rom/include/esp32s3/rom/ets_sys.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/soc.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_assert.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_bit_defs.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/log/include/esp_log_internal.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_err.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_compiler.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../include/es7210_adc.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../include/../../interface/audio_codec_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../include/../../interface/../include/esp_codec_dev_types.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../include/../../interface/audio_codec_ctrl_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/es7210_reg.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../priv_include/es_common.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/esp_codec_dev_defaults.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../interface/audio_codec_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../interface/audio_codec_ctrl_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../interface/audio_codec_data_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../interface/../include/esp_codec_dev_types.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../interface/audio_codec_gpio_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../esp_codec_config.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/es8311_codec.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/../../interface/audio_codec_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/../../interface/audio_codec_ctrl_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/../../interface/audio_codec_gpio_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/../../include/esp_codec_dev_vol.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/../../include/esp_codec_dev_types.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/../device/include/es8388_codec.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/es7210/../../include/esp_codec_dev_vol.h

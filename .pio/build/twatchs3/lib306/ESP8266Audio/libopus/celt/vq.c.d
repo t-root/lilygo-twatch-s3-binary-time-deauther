@@ -1,0 +1,27 @@
+.pio/build/twatchs3/lib306/ESP8266Audio/libopus/celt/vq.c.o: \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/vq.c \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../config.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/mathops.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/arch.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../opus_types.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../opus_defines.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../opus_types.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/fixed_generic.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/entcode.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/ecintrin.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/os_support.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/cwrs.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/stack_alloc.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/entenc.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/entdec.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/vq.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/modes.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/celt.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../opus_custom.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/../opus_defines.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/mdct.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/kiss_fft.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/cpu_support.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/bands.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/rate.h \
+ .pio/libdeps/twatchs3/ESP8266Audio/src/libopus/celt/pitch.h
