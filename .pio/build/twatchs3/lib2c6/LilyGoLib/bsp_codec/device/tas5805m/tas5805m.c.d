@@ -1,0 +1,23 @@
+.pio/build/twatchs3/lib2c6/LilyGoLib/bsp_codec/device/tas5805m/tas5805m.c.o: \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/tas5805m.c \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/log/include/esp_log.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_rom/include/esp_rom_sys.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/reset_reasons.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_rom/include/esp32s3/rom/ets_sys.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/soc.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_assert.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_bit_defs.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/log/include/esp_log_internal.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/tas5805m_dac.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../interface/audio_codec_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../interface/../include/esp_codec_dev_types.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_err.h \
+ C:/Users/T-Root/.platformio/packages/framework-arduinoespressif32@3.20014.231204/tools/sdk/esp32s3/include/esp_common/include/esp_compiler.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../interface/audio_codec_ctrl_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../interface/audio_codec_gpio_if.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../include/esp_codec_dev_vol.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../include/../../include/esp_codec_dev_types.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/tas5805m_reg.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/tas5805m_reg_cfg.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../../include/esp_codec_dev_os.h \
+ .pio/libdeps/twatchs3/LilyGoLib/src/bsp_codec/device/tas5805m/../../include/esp_codec_dev_vol.h

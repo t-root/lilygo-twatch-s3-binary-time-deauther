@@ -6,16 +6,49 @@ from pathlib import Path
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Convert Square.ttf to LVGL C font")
-    parser.add_argument("--font", default="Square.ttf", help="Path to TTF font file")
-    parser.add_argument("--size", type=int, default=18, help="Font size in pixels")
-    parser.add_argument("--bpp", type=int, default=4, choices=[1, 2, 3, 4, 8], help="Bits per pixel")
-    parser.add_argument("--range", dest="glyph_range", default="0x20-0x7E", help="Unicode range")
-    parser.add_argument("--name", default="square_18", help="Generated LVGL font symbol name")
-    parser.add_argument("--out", default="src/fonts/square_18.c", help="Output C file path")
+    parser = argparse.ArgumentParser(
+        description="Convert TTF font to LVGL C font"
+    )
+
+    parser.add_argument(
+        "--font",
+        default="Square.ttf",
+        help="Path to TTF font file",
+    )
+    parser.add_argument(
+        "--size",
+        type=int,
+        default=18,
+        help="Font size in pixels",
+    )
+    parser.add_argument(
+        "--bpp",
+        type=int,
+        default=4,
+        choices=[1, 2, 3, 4, 8],
+        help="Bits per pixel",
+    )
+    parser.add_argument(
+        "--range",
+        dest="glyph_range",
+        default="0x20-0x7E",
+        help="Unicode range",
+    )
+    parser.add_argument(
+        "--name",
+        default="square_18",
+        help="Generated LVGL font symbol name",
+    )
+    parser.add_argument(
+        "--out",
+        default="square_18.c",
+        help="Output C file path (default: current directory)",
+    )
+
     args = parser.parse_args()
 
-    out_path = Path(args.out)
+    # Xuất ra thư mục hiện tại nếu chỉ truyền tên file
+    out_path = Path(args.out).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     cmd = [
@@ -41,14 +74,19 @@ def main() -> int:
         str(out_path),
     ]
 
-    print("Running:", " ".join(cmd))
+    print("Running:")
+    print(" ".join(cmd))
+
     try:
         subprocess.run(cmd, check=True)
     except subprocess.CalledProcessError as exc:
-        print(f"Font conversion failed with exit code {exc.returncode}", file=sys.stderr)
+        print(
+            f"\n❌ Font conversion failed with exit code {exc.returncode}",
+            file=sys.stderr,
+        )
         return exc.returncode
 
-    print(f"Generated: {out_path}")
+    print(f"\n✅ Generated: {out_path}")
     return 0
 
 

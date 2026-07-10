@@ -228,8 +228,8 @@
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../Module.h \
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/SX126x.h \
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../protocols/PhysicalLayer/PhysicalLayer.h \
- c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\radiolib\src\typedef.h \
- c:\users\t-root\downloads\lilygo-twatch-s3-binary-time\.pio\libdeps\twatchs3\radiolib\src\module.h \
+ .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../protocols/PhysicalLayer/../../TypeDef.h \
+ .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../protocols/PhysicalLayer/../../Module.h \
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../utils/FEC.h \
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../utils/../TypeDef.h \
  .pio/libdeps/twatchs3/RadioLib/src/modules/LLCC68/../SX126x/../../utils/../Module.h \
