@@ -520,7 +520,6 @@ static void processWifiScan() {
         wifiScanStartMs = now;
         wifiScanUiMs = 0;
         setAttackButtonLabel("Attack");
-        setScanButtonLabel("Scan");
         setStatusMessage("Scanning... Please wait");
         lv_obj_clear_flag(deauthContainer, LV_OBJ_FLAG_HIDDEN);
         flushDeauthUI();
@@ -534,7 +533,6 @@ static void processWifiScan() {
         char buf[64];
         snprintf(buf, sizeof(buf), "Scanning... %lus", (now - wifiScanStartMs) / 1000);
         if (deauthStatusLabel) lv_label_set_text(deauthStatusLabel, buf);
-        if (scanButtonLabel) lv_label_set_text(scanButtonLabel, "Scan");
         flushDeauthUI();
     }
 
@@ -1043,20 +1041,27 @@ void setup() {
 
     // hàng nút chức năng
     lv_obj_t *btnRow = lv_obj_create(deauthPanel);
-    lv_obj_set_size(btnRow, lv_pct(100), LV_SIZE_CONTENT);
+    lv_obj_set_width(btnRow, lv_pct(100));
+    lv_obj_set_height(btnRow, LV_SIZE_CONTENT);
     lv_obj_set_style_bg_color(btnRow, lv_color_hex(0x000000), 0);
     lv_obj_set_style_bg_opa(btnRow, LV_OPA_TRANSP, 0);
     lv_obj_set_style_border_width(btnRow, 0, 0);
-    lv_obj_set_style_pad_all(btnRow, 2, 0);
+    lv_obj_set_style_pad_hor(btnRow, 4, 0);
+    lv_obj_set_style_pad_ver(btnRow, 2, 0);
+    lv_obj_set_style_pad_column(btnRow, 6, 0);
     lv_obj_set_flex_flow(btnRow, LV_FLEX_FLOW_ROW);
-    lv_obj_set_flex_align(btnRow, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER);
+    lv_obj_set_flex_align(btnRow, LV_FLEX_ALIGN_SPACE_EVENLY, LV_FLEX_ALIGN_CENTER, LV_FLEX_ALIGN_CENTER);
     addTouchBubble(btnRow);
 
     const char *deauthBtnText[] = {"Scan", "Attack", "Exit"};
     int deauthBtnAction[] = {0, 1, 2};
+    const int16_t deauthBtnH = 28;
     for (int i = 0; i < 3; i++) {
         lv_obj_t *btn = lv_btn_create(btnRow);
-        lv_obj_set_size(btn, LV_SIZE_CONTENT, 30);
+        lv_obj_set_height(btn, deauthBtnH);
+        lv_obj_set_flex_grow(btn, 1);
+        lv_obj_set_style_min_width(btn, 0, 0);
+        lv_obj_set_style_pad_hor(btn, 2, 0);
         lv_obj_set_style_bg_color(btn, lv_color_hex(0x000000), 0);
         lv_obj_set_style_bg_opa(btn, LV_OPA_TRANSP, 0);
         lv_obj_set_style_border_color(btn, kUiGreen, 0);
@@ -1065,6 +1070,9 @@ void setup() {
         lv_obj_add_event_cb(btn, deauth_btn_event_cb, LV_EVENT_CLICKED, (void*)(uintptr_t)deauthBtnAction[i]);
         lv_obj_t *lbl = lv_label_create(btn);
         lv_label_set_text(lbl, deauthBtnText[i]);
+        lv_obj_set_width(lbl, lv_pct(100));
+        lv_label_set_long_mode(lbl, LV_LABEL_LONG_DOT);
+        lv_obj_set_style_text_align(lbl, LV_TEXT_ALIGN_CENTER, 0);
         lv_obj_set_style_text_color(lbl, kUiGreen, 0);
         lv_obj_set_style_text_font(lbl, kUiFont, 0);
         lv_obj_center(lbl);
